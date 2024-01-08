@@ -1,0 +1,3 @@
+/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/rebuild_cache.dir
+/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/VideoEncoderDecoder.dir
+/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/edit_cache.dir
