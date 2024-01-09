@@ -123,6 +123,60 @@ VideoEncoderDecoder/fast:
 	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/build
 .PHONY : VideoEncoderDecoder/fast
 
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/video/image_decoder_h26x.o: src/video/image_decoder_h26x.cpp.o
+
+.PHONY : src/video/image_decoder_h26x.o
+
+# target to build an object file
+src/video/image_decoder_h26x.cpp.o:
+	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/src/video/image_decoder_h26x.cpp.o
+.PHONY : src/video/image_decoder_h26x.cpp.o
+
+src/video/image_decoder_h26x.i: src/video/image_decoder_h26x.cpp.i
+
+.PHONY : src/video/image_decoder_h26x.i
+
+# target to preprocess a source file
+src/video/image_decoder_h26x.cpp.i:
+	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/src/video/image_decoder_h26x.cpp.i
+.PHONY : src/video/image_decoder_h26x.cpp.i
+
+src/video/image_decoder_h26x.s: src/video/image_decoder_h26x.cpp.s
+
+.PHONY : src/video/image_decoder_h26x.s
+
+# target to generate assembly for a file
+src/video/image_decoder_h26x.cpp.s:
+	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/src/video/image_decoder_h26x.cpp.s
+.PHONY : src/video/image_decoder_h26x.cpp.s
+
 src/video/image_encoder_h26x.o: src/video/image_encoder_h26x.cpp.o
 
 .PHONY : src/video/image_encoder_h26x.o
@@ -149,33 +203,6 @@ src/video/image_encoder_h26x.s: src/video/image_encoder_h26x.cpp.s
 src/video/image_encoder_h26x.cpp.s:
 	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/src/video/image_encoder_h26x.cpp.s
 .PHONY : src/video/image_encoder_h26x.cpp.s
-
-src/video/main.o: src/video/main.cpp.o
-
-.PHONY : src/video/main.o
-
-# target to build an object file
-src/video/main.cpp.o:
-	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/src/video/main.cpp.o
-.PHONY : src/video/main.cpp.o
-
-src/video/main.i: src/video/main.cpp.i
-
-.PHONY : src/video/main.i
-
-# target to preprocess a source file
-src/video/main.cpp.i:
-	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/src/video/main.cpp.i
-.PHONY : src/video/main.cpp.i
-
-src/video/main.s: src/video/main.cpp.s
-
-.PHONY : src/video/main.s
-
-# target to generate assembly for a file
-src/video/main.cpp.s:
-	$(MAKE) -f CMakeFiles/VideoEncoderDecoder.dir/build.make CMakeFiles/VideoEncoderDecoder.dir/src/video/main.cpp.s
-.PHONY : src/video/main.cpp.s
 
 src/video/video_decoder_decoder.o: src/video/video_decoder_decoder.cpp.o
 
@@ -213,12 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... VideoEncoderDecoder"
 	@echo "... edit_cache"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/video/image_decoder_h26x.o"
+	@echo "... src/video/image_decoder_h26x.i"
+	@echo "... src/video/image_decoder_h26x.s"
 	@echo "... src/video/image_encoder_h26x.o"
 	@echo "... src/video/image_encoder_h26x.i"
 	@echo "... src/video/image_encoder_h26x.s"
-	@echo "... src/video/main.o"
-	@echo "... src/video/main.i"
-	@echo "... src/video/main.s"
 	@echo "... src/video/video_decoder_decoder.o"
 	@echo "... src/video/video_decoder_decoder.i"
 	@echo "... src/video/video_decoder_decoder.s"

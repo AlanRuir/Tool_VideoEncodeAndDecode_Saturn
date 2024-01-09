@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/holo/apps/VideoEncoderAn
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ec09a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ec09a.dir/build.make CMakeFiles/cmTC_ec09a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ef747/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef747.dir/build.make CMakeFiles/cmTC_ef747.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ec09a.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ec09a.dir/testCCompiler.c.o   -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_ec09a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec09a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_ec09a.dir/testCCompiler.c.o  -o cmTC_ec09a 
+Building C object CMakeFiles/cmTC_ef747.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ef747.dir/testCCompiler.c.o   -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ef747
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef747.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ef747.dir/testCCompiler.c.o  -o cmTC_ef747 
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_24e1c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_24e1c.dir/build.make CMakeFiles/cmTC_24e1c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b12cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b12cb.dir/build.make CMakeFiles/cmTC_b12cb.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_24e1c.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_24e1c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_24e1c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24e1c.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_24e1c.dir/CMakeCCompilerABI.c.o  -o cmTC_24e1c 
+Building C object CMakeFiles/cmTC_b12cb.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b12cb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b12cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b12cb.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_b12cb.dir/CMakeCCompilerABI.c.o  -o cmTC_b12cb 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24e1c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1hzoUj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_24e1c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_24e1c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24e1c' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b12cb' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSIcryA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b12cb /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b12cb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b12cb' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_24e1c/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_24e1c.dir/build.make CMakeFiles/cmTC_24e1c.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b12cb/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b12cb.dir/build.make CMakeFiles/cmTC_b12cb.dir/build]
   ignore line: [make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_24e1c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_24e1c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_24e1c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24e1c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_24e1c.dir/CMakeCCompilerABI.c.o  -o cmTC_24e1c ]
+  ignore line: [Building C object CMakeFiles/cmTC_b12cb.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_b12cb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b12cb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b12cb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_b12cb.dir/CMakeCCompilerABI.c.o  -o cmTC_b12cb ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24e1c' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1hzoUj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_24e1c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_24e1c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b12cb' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSIcryA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b12cb /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b12cb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc1hzoUj.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccSIcryA.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_24e1c] ==> ignore
+    arg [cmTC_b12cb] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_24e1c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_b12cb.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,14 +158,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_02198/fast"
-/usr/bin/make -f CMakeFiles/cmTC_02198.dir/build.make CMakeFiles/cmTC_02198.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f109a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f109a.dir/build.make CMakeFiles/cmTC_f109a.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_02198.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_02198.dir/feature_tests.c.o   -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_02198
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02198.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_02198.dir/feature_tests.c.o  -o cmTC_02198 
+Building C object CMakeFiles/cmTC_f109a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_f109a.dir/feature_tests.c.o   -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f109a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f109a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f109a.dir/feature_tests.c.o  -o cmTC_f109a 
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 
@@ -178,14 +178,14 @@ make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFi
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d625c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d625c.dir/build.make CMakeFiles/cmTC_d625c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_82537/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82537.dir/build.make CMakeFiles/cmTC_82537.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d625c.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_d625c.dir/feature_tests.c.o   -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d625c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d625c.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_d625c.dir/feature_tests.c.o  -o cmTC_d625c 
+Building C object CMakeFiles/cmTC_82537.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_82537.dir/feature_tests.c.o   -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_82537
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82537.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_82537.dir/feature_tests.c.o  -o cmTC_82537 
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 
@@ -198,14 +198,14 @@ make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFi
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bf7b7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bf7b7.dir/build.make CMakeFiles/cmTC_bf7b7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dd485/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd485.dir/build.make CMakeFiles/cmTC_dd485.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bf7b7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_bf7b7.dir/feature_tests.c.o   -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bf7b7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf7b7.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_bf7b7.dir/feature_tests.c.o  -o cmTC_bf7b7 
+Building C object CMakeFiles/cmTC_dd485.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_dd485.dir/feature_tests.c.o   -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dd485
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd485.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_dd485.dir/feature_tests.c.o  -o cmTC_dd485 
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 
@@ -216,28 +216,28 @@ make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFi
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_68785/fast"
-/usr/bin/make -f CMakeFiles/cmTC_68785.dir/build.make CMakeFiles/cmTC_68785.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_73199/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73199.dir/build.make CMakeFiles/cmTC_73199.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_68785.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_68785.dir/testCXXCompiler.cxx.o -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_68785
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68785.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_68785.dir/testCXXCompiler.cxx.o  -o cmTC_68785 
+Building CXX object CMakeFiles/cmTC_73199.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_73199.dir/testCXXCompiler.cxx.o -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_73199
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73199.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_73199.dir/testCXXCompiler.cxx.o  -o cmTC_73199 
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0c532/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0c532.dir/build.make CMakeFiles/cmTC_0c532.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5a050/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a050.dir/build.make CMakeFiles/cmTC_5a050.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0c532.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_0c532.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_0c532
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c532.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_0c532.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0c532 
+Building CXX object CMakeFiles/cmTC_5a050.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_5a050.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5a050
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a050.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_5a050.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5a050 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -249,9 +249,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c532' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNNbsNN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0c532 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_0c532.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c532' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5a050' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgg9rf0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5a050 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5a050.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5a050' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 
@@ -259,14 +259,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0c532/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0c532.dir/build.make CMakeFiles/cmTC_0c532.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5a050/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5a050.dir/build.make CMakeFiles/cmTC_5a050.dir/build]
   ignore line: [make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_0c532.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_0c532.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_0c532]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c532.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_0c532.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0c532 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_5a050.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_5a050.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5a050]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a050.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_5a050.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5a050 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -278,13 +278,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c532' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNNbsNN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0c532 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_0c532.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5a050' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgg9rf0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5a050 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5a050.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccNNbsNN.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgg9rf0.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0c532] ==> ignore
+    arg [cmTC_5a050] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_0c532.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_5a050.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,14 +342,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_079c8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_079c8.dir/build.make CMakeFiles/cmTC_079c8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_229bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_229bc.dir/build.make CMakeFiles/cmTC_229bc.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_079c8.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_079c8.dir/feature_tests.cxx.o -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_079c8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_079c8.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_079c8.dir/feature_tests.cxx.o  -o cmTC_079c8 
+Building CXX object CMakeFiles/cmTC_229bc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_229bc.dir/feature_tests.cxx.o -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_229bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_229bc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_229bc.dir/feature_tests.cxx.o  -o cmTC_229bc 
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 
@@ -415,14 +415,14 @@ make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFi
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_25719/fast"
-/usr/bin/make -f CMakeFiles/cmTC_25719.dir/build.make CMakeFiles/cmTC_25719.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_41dfc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41dfc.dir/build.make CMakeFiles/cmTC_41dfc.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_25719.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_25719.dir/feature_tests.cxx.o -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_25719
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25719.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_25719.dir/feature_tests.cxx.o  -o cmTC_25719 
+Building CXX object CMakeFiles/cmTC_41dfc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_41dfc.dir/feature_tests.cxx.o -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_41dfc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41dfc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_41dfc.dir/feature_tests.cxx.o  -o cmTC_41dfc 
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 
@@ -488,14 +488,14 @@ make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFi
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0f9f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0f9f5.dir/build.make CMakeFiles/cmTC_0f9f5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_366c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_366c6.dir/build.make CMakeFiles/cmTC_366c6.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0f9f5.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_0f9f5.dir/feature_tests.cxx.o -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0f9f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f9f5.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_0f9f5.dir/feature_tests.cxx.o  -o cmTC_0f9f5 
+Building CXX object CMakeFiles/cmTC_366c6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_366c6.dir/feature_tests.cxx.o -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_366c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_366c6.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_366c6.dir/feature_tests.cxx.o  -o cmTC_366c6 
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 
@@ -561,14 +561,14 @@ make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFi
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb51c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cb51c.dir/build.make CMakeFiles/cmTC_cb51c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_610ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_610ec.dir/build.make CMakeFiles/cmTC_610ec.dir/build
 make[1]: Entering directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cb51c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_cb51c.dir/feature_tests.cxx.o -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cb51c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb51c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_cb51c.dir/feature_tests.cxx.o  -o cmTC_cb51c 
+Building CXX object CMakeFiles/cmTC_610ec.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_610ec.dir/feature_tests.cxx.o -c /home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_610ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_610ec.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_610ec.dir/feature_tests.cxx.o  -o cmTC_610ec 
 make[1]: Leaving directory '/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/CMakeTmp'
 
 

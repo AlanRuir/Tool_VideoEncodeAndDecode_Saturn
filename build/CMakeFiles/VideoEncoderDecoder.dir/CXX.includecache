@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+../include/common/common_type.h
+iostream
+-
+
+../include/video/image_decoder_h26x.h
+iostream
+-
+functional
+-
+libavcodec/avcodec.h
+-
+libavformat/avformat.h
+-
+libavutil/imgutils.h
+-
+libavutil/opt.h
+-
+libswscale/swscale.h
+-
+common/common_type.h
+-
+
 ../include/video/image_encoder_h26x.h
 iostream
 -
@@ -21,6 +43,8 @@ libavutil/opt.h
 -
 libswscale/swscale.h
 -
+common/common_type.h
+-
 
 ../include/video/video_encoder_decoder.h
 iostream
@@ -29,19 +53,33 @@ memory
 -
 video/image_encoder_h26x.h
 -
+video/image_decoder_h26x.h
+-
+
+/home/holo/apps/VideoEncoderAndDecoder/src/main.cpp
+iostream
+-
+memory
+-
+fstream
+-
+string
+-
+cstdint
+-
+video/video_encoder_decoder.h
+-
+
+/home/holo/apps/VideoEncoderAndDecoder/src/video/image_decoder_h26x.cpp
+video/image_decoder_h26x.h
+-
+exception
+-
 
 /home/holo/apps/VideoEncoderAndDecoder/src/video/image_encoder_h26x.cpp
 video/image_encoder_h26x.h
 -
 exception
--
-
-/home/holo/apps/VideoEncoderAndDecoder/src/video/main.cpp
-iostream
--
-video/image_encoder_h26x.h
--
-memory
 -
 
 /home/holo/apps/VideoEncoderAndDecoder/src/video/video_decoder_decoder.cpp

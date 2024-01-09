@@ -1,5 +1,5 @@
 # 设置FFmpeg库的根目录
-set(FFmpeg_ROOT_DIR "/usr")  # 修改为你的FFmpeg库的根目录
+set(FFmpeg_ROOT_DIR "/usr")  # ！！！修改为你的FFmpeg库的根目录
 
 # 设置FFmpeg库的头文件和库文件路径
 set(FFmpeg_INCLUDE_DIR "${FFmpeg_ROOT_DIR}/include")

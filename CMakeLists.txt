@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(VideoEncoderDecoder)
 
 # 设置C++标准
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 # 设置CMake安装目录
 set(CMAKE_PREFIX_PATH "/usr")
@@ -11,7 +11,7 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)  # 将cmake目�
 find_package(FFmpeg REQUIRED COMPONENTS AVCODEC AVFORMAT AVUTIL SWSCALE)
 
 # 添加可执行文件
-file(GLOB SOURCE_FILES "src/video/*.cpp")
+file(GLOB SOURCE_FILES "src/video/*.cpp" "src/main.cpp")
 add_executable(VideoEncoderDecoder ${SOURCE_FILES})
 
 # 添加头文件和链接库

@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/holo/apps/VideoEncoderAndDecoder/src/main.cpp" "/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/VideoEncoderDecoder.dir/src/main.cpp.o"
+  "/home/holo/apps/VideoEncoderAndDecoder/src/video/image_decoder_h26x.cpp" "/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/VideoEncoderDecoder.dir/src/video/image_decoder_h26x.cpp.o"
   "/home/holo/apps/VideoEncoderAndDecoder/src/video/image_encoder_h26x.cpp" "/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/VideoEncoderDecoder.dir/src/video/image_encoder_h26x.cpp.o"
-  "/home/holo/apps/VideoEncoderAndDecoder/src/video/main.cpp" "/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/VideoEncoderDecoder.dir/src/video/main.cpp.o"
   "/home/holo/apps/VideoEncoderAndDecoder/src/video/video_decoder_decoder.cpp" "/home/holo/apps/VideoEncoderAndDecoder/build/CMakeFiles/VideoEncoderDecoder.dir/src/video/video_decoder_decoder.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

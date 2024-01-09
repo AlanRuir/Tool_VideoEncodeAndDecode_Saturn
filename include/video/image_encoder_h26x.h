@@ -13,11 +13,7 @@ extern "C"
 #include <libswscale/swscale.h>
 }
 
-enum class VideoCodec : uint8_t
-{
-    H264,
-    H265,
-};
+#include <common/common_type.h>
 
 class ImageEncoderH26X
 {
@@ -32,13 +28,10 @@ private:
     uint32_t                 cols_;
     uint32_t                 rows_;
     uint32_t                 counter_;
-    uint32_t                 pts_counter_;
     AVCodec*                 codec_;
     AVCodecContext*          codec_context_;
-    AVFrame*                 av_frame_;
+    AVFrame*                 frame_;
     AVPacket*                pkt_;
-    uint8_t*                 out_buf_;
-    uint8_t*                 frame_buf_;
     ImageEncoderCallbackType callback_;
 };
 
